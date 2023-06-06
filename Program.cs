@@ -12,3 +12,16 @@ void FillArray(string [] stringArray)
         stringArray[i] = Console.ReadLine();
     }
 }
+
+void OverwriteArray(string[] stringArray1, string[] stringArray2)
+{
+    int count = 0;
+    for (int i = 0; i < stringArray1.Length; i++)
+        {
+            if(stringArray1[i].Length <= 3)
+            {
+                stringArray2[count] = stringArray1[i];
+                count++;
+            }
+        }
+}
