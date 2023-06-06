@@ -34,3 +34,8 @@ void PrintArray(string[] array)
         }
     Console.WriteLine();
 }
+
+FillArray(stringArray1);
+PrintArray(stringArray1);
+OverwriteArray(stringArray1, stringArray2);
+PrintArray(stringArray2);
